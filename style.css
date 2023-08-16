@@ -1,0 +1,12 @@
+.background{
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 12pt;
+    background-color: #FBFCFC;
+    width: 500px;
+    height: 90vh;
+}
