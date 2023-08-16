@@ -1,19 +1,58 @@
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 900" width="600" height="900" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        .container {
-          display: flex;
-          width: 100%;
-          height: 300px;
-          background-color: black;
-          color: white;
+        .background{
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            font-family: "Open Sans", sans-serif;
+            font-weight: normal;
+            font-size: 12pt;
+            background-color: #FBFCFC;
+            width: 550px;
+            height: 90vh;
+        }
+        .chat-bubble-received{
+            position: relative;
+            align-self: flex-start;
+            padding: 7px 10px;
+            background-color: #EAECEE;
+            border-radius: 20px;
+            max-width: 250px;
+            box-shadow: -3px 7px 8px grey;
+            left: 50px;
+            margin-bottom: 20px;
+            padding-inline-start: 18px;
+        }
+        .chat-bubble-sent{
+            position: relative;
+            align-self: flex-end;
+            padding: 7px 10px;
+            color: white;
+            background-color: #1982FC;
+            border-radius: 20px;
+            max-width: 250px;
+            box-shadow: -3px 7px 8px grey;
+            padding-inline-start: 18px;
+        }
+        p{
+            overflow-wrap: break-word; 
         }
       </style>
 
-      <div class="container">
-        <h1>Hello, World! 👋</h1>
-      </div>
+        <div class="background">
+
+            <div class="chat-bubble-sent">
+            <p>hi how's it goin?</p>
+            </div>
+
+              <div class="chat-bubble-received">
+              <p>new number who dis?</p>
+            </div>
+        </div>
+
     </div>
   </foreignObject>
 </svg>
