@@ -11,8 +11,8 @@
             font-weight: normal;
             font-size: 12pt;
             background-color: #FBFCFC;
-            width: 550px;
-            height: 90vh;
+            width: 600px;
+            height: 100vh;
         }
         .chat-bubble-received{
             position: relative;
