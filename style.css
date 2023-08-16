@@ -19,4 +19,17 @@
     max-width: 315px;
     box-shadow: -3px 7px 8px grey;
     left: 50px;
+    margin-bottom: 20px;
+}
+
+.chat-bubble-sent{
+    position: relative;
+    align-self: flex-end;
+    padding: 7px 10px;
+    color: white;
+    background-color: #1982FC;
+    border-radius: 20px;
+    max-width: 315px;
+    box-shadow: -3px 7px 8px grey;
+    left: 50px;
 }
