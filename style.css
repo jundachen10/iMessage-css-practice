@@ -21,7 +21,6 @@
     box-shadow: -3px 7px 8px grey;
     left: 50px;
     margin-bottom: 20px;
-    padding-inline-start: 18px;
 }
 
 .chat-bubble-sent{
@@ -33,7 +32,6 @@
     border-radius: 20px;
     max-width: 250px;
     box-shadow: -3px 7px 8px grey;
-    padding-inline-start: 18px;
 }
 
 p{
