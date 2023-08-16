@@ -10,3 +10,13 @@
     width: 500px;
     height: 90vh;
 }
+
+.chat-bubble-received{
+    position: relative;
+    padding: 7px 10px;
+    background-color: #EAECEE;
+    border-radius: 20px;
+    max-width: 315px;
+    box-shadow: -3px 7px 8px grey;
+    left: 50px;
+}
